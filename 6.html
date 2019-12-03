@@ -34,7 +34,7 @@
     <button type="button" class="btn btn-outline-dark"><a href="13.html">Any other reasons.</a></button>
   </div>
 
-      <p id="answer15"> </p>
+    <p style="display:none"  id="answer15"> </br></br>Unfortunately, you are not eligible for unemployment benefits. This happens if you are fired for misconduct. If you believe you were unjustly fired, you can reach out to organizations such as <span><a href="http://cswa.org/?page_id=152&lang=en" target="blank"> the Chinese Staff and Workers Association. </a></span> </p>
   <img src="nyc.png" width="300px" height="150px">
 
   </div>
@@ -45,9 +45,11 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
   <script>
+
   function answer15() {
-    document.getElementById("answer15").innerHTML = "</br>Unfortunately, you are probably not elighble for unemployment benefits. To know more... ";
-  }
+  document.getElementById("answer15").style.display="block";
+}
+
   </script>
    <script src="popper.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
