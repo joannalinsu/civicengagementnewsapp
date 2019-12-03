@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="button2.css">
+            <link rel="stylesheet" type="text/css" href="button.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+
+  <div class="intro">
+
+  <img src="newyorkstate.png" width="150px" height="100px">
+  
+  <h1>There must be something wrong with your job. Would you mind telling us why you quitted?</h1>
+
+</div>
+
+<div class="q">
+  <p> Why did you quit? </p>
+
+  <div class="btn-group">
+    <button  type="button" class="btn btn-outline-dark"><a href="7.html">I quitted because of an accident </br> or personal illness. </a></button> 
+    <button  type="button" class="btn btn-outline-dark"><a href="13.html">I quitted because someone in my family is ill, </br>or my spouse employment location changed </br> and I had to move out with them. </a></button>
+    <button  type="button" class="btn btn-outline-dark"><a href="13.html">I quitted because I'm a victim of domestic violence </br> and I had to leave my workplace.</a></button>
+    <button  type="button" class="btn btn-outline-dark" onclick="answer12()"> I quitted for another reason.</a></button>
+  </div>
+    
+    <p id="answer12"> </p>
+    <img src="nyc.png" width="300px" height="150px">
+
+</div>
+  </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script>
+function answer12() {
+  document.getElementById("answer12").innerHTML = "</br>Unfortunately, you are probably not elighble for unemployment benefits. To know more... ";
+}
+</script>
+
+   <script src="popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
