@@ -19,3 +19,10 @@ div.q{
 
 }
 
+div.note{
+	font-size:0.5em;
+	text-align: center;
+	margin-left:40px;
+	margin-right:40px;
+	margin-top:20px;
+}
